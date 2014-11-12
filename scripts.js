@@ -28,7 +28,7 @@ function createInstagramHTML(){
 	var htmlString = '';
 	for (var i = 0; i < 20; i++){
 		if (i===0 ||i===5||i===10||i===15){
-			htmlString += '<div class="container">';
+			htmlString += '<div class="container1">';
 		}else if (i===1 ||i===6||i===11||i===16){
 			htmlString += '<div class="container2">';
 		}else if (i===2 ||i===7||i===12||i===17){
